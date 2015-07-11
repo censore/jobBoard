@@ -1,0 +1,1 @@
+<input type="text" name="{$id}[like]" value="{if is_array($value)}{if $value.like}{$value.like|escape:'html'}{elseif $value.equal}{$value.equal|escape:'html'}{/if}{else}{$value|escape:'html'}{/if}" />
